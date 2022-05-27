@@ -113,14 +113,6 @@
     padding: 10px;
 }
 
-.separador {
-    width: 95%;
-    max-width: 1300px;
-    margin: auto;
-    border-top: 1px;
-    border-style:solid;
-}
-
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
