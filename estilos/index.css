@@ -185,7 +185,7 @@
     }
 
     #imagenIPM {
-        width: 70%;
+        width: 75%;
         height: auto;
     }
     
@@ -210,6 +210,16 @@
     .banner {
         font-size: 1.5em;
     }
+
+    .bienvenido {
+        grid-column: 1/13;
+        grid-row: 1/2;
+        }
+    
+    .usuarioypassword {
+        grid-column: 1/13;
+        grid-row: 2/3;
+        }
 
     }
 
