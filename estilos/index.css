@@ -50,7 +50,7 @@
 .section-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    height: 300px;
+    height: 350px;
     width: 95%;
     max-width: 1300px;
     margin: auto;
@@ -65,7 +65,7 @@
 }
 
 #imagenIPM {
-    max-width: 88%;
+    max-width: 100%;
     height: auto;
 }
 
