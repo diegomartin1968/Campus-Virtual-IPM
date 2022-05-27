@@ -174,16 +174,6 @@
         margin: 0px;
     }
     
-    .section-grid {
-        display: grid;
-        grid-template-columns: repeat(12,1fr);
-        height: 395px;
-        width: 90%;
-        margin: auto;
-        margin-bottom: 5px;
-        gap: 5px;
-    }
-    
     .imagenIPM {
         grid-column: 1/13;
         grid-row: 2/3;
