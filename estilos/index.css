@@ -173,7 +173,7 @@
     .section-grid {
         display: grid;
         grid-template-columns: repeat(12,1fr);
-        height: 350px;
+        height: 395px;
         width: 90%;
         margin: auto;
         margin-bottom: 5px;
@@ -212,10 +212,6 @@
 
     .banner {
         font-size: 1.5em;
-    }
-
-    .section-grid {
-        height: 400px;
     }
 
     }
