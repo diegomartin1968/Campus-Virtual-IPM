@@ -121,6 +121,7 @@
     width: 95%;
     max-width: 1300px;
     margin: auto;
+    margin-top: 20px;
     row-gap: 5px;
 }
 
