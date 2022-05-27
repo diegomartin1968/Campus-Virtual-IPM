@@ -51,11 +51,10 @@
 .section-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    height: 272px;
+    height: 300px;
     width: 95%;
     max-width: 1300px;
     margin: auto;
-    margin-bottom: 25px;
     gap: 5px;
 }
 
