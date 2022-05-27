@@ -124,7 +124,7 @@
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 50px 20px;
+    grid-template-rows: 50px 50px 20px;
     width: 95%;
     max-width: 1300px;
     margin: auto;
@@ -145,20 +145,20 @@
     justify-content:flex-start;
     column-gap: 10px;
     grid-column: 1/12;
-    grid-row: 1/2;
+    grid-row: 2/3;
     align-items: center;
 }
 
 .contacto {
     grid-column: 12/13;
-    grid-row: 1/2;
+    grid-row: 2/3;
     padding-top: 8px;
     text-align: center;
 }
 
 .derechos {
     grid-column: 1/13;
-    grid-row: 2/3;
+    grid-row: 3/4;
 }
 
 @media only screen and (max-width: 600px) {
