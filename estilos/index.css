@@ -118,6 +118,11 @@
     row-gap: 5px;
 }
 
+.separador {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .footer-grid-item {
     background-color:dodgerblue;
     color: white;
