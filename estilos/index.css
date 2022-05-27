@@ -156,7 +156,6 @@
         display: grid;
         grid-template-columns: repeat(12,1fr);
         grid-template-rows: 30px 12px;
-        height: 50px;
         width: 90%;
         margin: auto;
         gap: 4px;
