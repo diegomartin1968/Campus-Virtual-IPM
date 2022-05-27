@@ -8,6 +8,11 @@
 
 .text-center {text-align: center;}
 
+.body {
+    width: 100vw;
+    height: 100vw
+}
+
 .header-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
