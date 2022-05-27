@@ -156,7 +156,7 @@
         display: grid;
         grid-template-columns: repeat(12,1fr);
         grid-template-rows: 30px 12px;
-        width: 90%;
+        width: 95%;
         margin: auto;
         gap: 4px;
     }
@@ -181,7 +181,7 @@
     }
 
     #imagenIPM {
-        width: 100%;
+        width: 50%;
         height: auto;
     }
     
