@@ -218,6 +218,12 @@
     .banner {
         font-size: 1.5em;
     }
+
+    .separador {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     }
 
 .fa-brands {font-size: 1em; margin: auto;}
