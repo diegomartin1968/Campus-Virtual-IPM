@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c9ed2265f6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Open+Sans:wght@300&family=Prompt:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="icon" href="/imagenes/FaviconIPM.ico">
+    <title>CV IPM</title>
+</head>
+<body>
+    <header>
+        <div class="header-grid">
+            <div class="header-grid-item logo"><img src="/imagenes/LogoIPM.jpg" alt="Logo IPM" height="45px"></div>
+            <div class="header-grid-item textologo">Politécnico Modelo</div>
+            <div class="header-grid-item banner">Campus Virtual IPM</div> 
+        </div>
+    </header>
+    <section>
+        <div class="section-grid">
+            <div class="section-grid-item imagenIPM"><img src="/imagenes/ImagenIPM(corta).jpg" alt="Imagen IPM" id="imagenIPM" height="300px"></div>
+            <div class="section-grid-item bienvenido">
+                <h1>Bienvenido</h1>
+            </div>
+            <div class="section-grid-item usuarioypassword">
+                <form name="ingreso" action="personal.html" method="POST" target="_self">
+                    <div id="labelusuario"><label for="usuario">Usuario</label></div>
+                    <div id="usuario"><input type="text" name="usuario" size="20" maxlength="30"></div>
+                    <div id="labelclave"><label for="clave">Clave de Acceso</label></div>
+                    <div id="clave"><input type="password" name="clave" size="12" maxlength="12"></div>
+                    <div class="enviar" onclick="scripts/validaringreso.js"><input type="submit" value="Iniciar sesión"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-grid-item redes">
+                <div class="redes-item twitter">
+                   <div class="text-center"><i class="fa-brands fa-twitter"></i></div>
+                   <div>Twitter</div>
+                </div>
+                <div class="redes-item facebook">
+                    <div class="text-center"><i class="fa-brands fa-facebook-square"></i></div>
+                    <div>Facebook</div> 
+                </div>   
+                <div class="redes-item instagram">
+                    <div class="text-center"><i class="fa-brands fa-instagram"></i></div>
+                    <div>Instagram</div> 
+                </div>
+                <div class="redes-item youtube">
+                    <div class="text-center"><i class="fa-brands fa-youtube"></i></div>
+                    <div>Youtube</div> 
+                </div>
+            </div>
+            <div class="footer-grid-item contacto">
+                <div class="text-center"><i class="fa-solid fa-address-card"></i></div>
+                <div>Contacto</div> 
+            </div>
+            <div class="footer-grid-item derechos">Derechos Reservados</div>
+        </div>
+    </footer>
+</body>
+</html>
