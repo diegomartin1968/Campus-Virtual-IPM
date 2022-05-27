@@ -107,11 +107,6 @@
     padding: 10px;
 }
 
-.separador {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -219,9 +214,8 @@
         font-size: 1.5em;
     }
 
-    .separador {
-        margin-top: 20px;
-        margin-bottom: 20px;
+    .section-grid {
+        height: 400px;
     }
 
     }
