@@ -6,12 +6,15 @@
 
 .fa-solid {font-size: 1em; margin: auto}
 
+.fa-regular {font-size: 1.5em; margin-left: 25px;}
+
 .fa-circle-question {font-size: 1.5em; color: white; vertical-align: middle;} 
 
 .fa-user {font-size: 1.5em; color: white; vertical-align: middle;} 
 
 a:link {
-    color:black;
+    font-size: 0.8em;
+    color:darkblue;
     text-decoration: none;
   }
   
@@ -22,7 +25,7 @@ a:link {
   }*/
   
 a:hover {
-    color: red;
+    color:whitesmoke;
     background-color: transparent;
     text-decoration: underline;
   }
@@ -85,13 +88,9 @@ a:active {
     background-color:dodgerblue;
 } 
 
-.menu-mat-item {
-    
-}
-
 .section-grid {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: 70px repeat(11,1fr);
     height: 700px;
     width: 95%;
     max-width: 1300px;
@@ -100,20 +99,26 @@ a:active {
     gap: 5px;
 }
 
-
-
 .menu-herram {
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     grid-column: 1/2;
     grid-row: 1/10;
-    background-color: orange;
-    color: white;
-} 
+    background-color:whitesmoke;
+    color: black;
+}
 
-.menu-herram-item {
+/*.menu-herram {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/10;
     background-color: blue;
+}*/
+
+#consultas {
+    text-align: center;
+    font-size: 0.8em;
 }
 
 .materia1 {
@@ -186,7 +191,7 @@ a:active {
 }
 
 
-@media only screen and (max-width: 400px) {
+/*@media only screen and (max-width: 400px) {
     .header-grid { height: 50px;}
     .menu-mat {display: none;} 
     .novedades {display: none;}
