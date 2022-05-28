@@ -207,10 +207,6 @@
         display: none;
     }
 
-    .banner {
-        font-size: 1.5em;
-    }
-
     .bienvenido {
         grid-column: 1/13;
         grid-row: 1/2;
