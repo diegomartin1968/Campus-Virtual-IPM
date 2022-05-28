@@ -10,7 +10,7 @@
     width: 95%;
     max-width: 1300px;
     margin: auto;
-    gap: 5px;
+    gap: 0px;
 }
 
 .logo {
@@ -19,7 +19,7 @@
 } 
 
 .campus {
-    grid-column: 2/10;
+    grid-column: 2/11;
     grid-row: 1/2;
     text-align: left;
     font-size: 1.5em;
@@ -36,12 +36,14 @@
     grid-row: 1/2;
     text-align: center;
     font-size: 1em;
+    background-color: darkblue;
 } 
 
 .cuenta {
     grid-column: 12/13;
     grid-row: 1/2;
     text-align: center;
+    background-color: darkblue;
 } 
 
 .menu-mat {
