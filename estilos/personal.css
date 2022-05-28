@@ -2,11 +2,18 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.fa-brands {font-size: 1em; margin: auto}
+
+.fa-solid {font-size: 1em; margin: auto}
+
+.fa-circle-question {font-size: 1.5em; color: white; vertical-align: middle;} 
+
+.fa-user {font-size: 1.5em; color: white; vertical-align: middle;} 
+
 .header-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: 45px 50px;
-    height: 105px;
+    grid-template-rows: 45px 20px;
     width: 95%;
     max-width: 1300px;
     margin: auto;
@@ -52,33 +59,25 @@
     justify-content: space-evenly;
     grid-column: 1/13;
     grid-row: 2/3;
-    background-color: orange;
+    background-color:dodgerblue;
 } 
 
 .menu-mat-item {
-    background-color: blue;
+    
 }
-
-
-
-
-
-
-
-
-
 
 .section-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     height: 700px;
-    width: 90%;
+    width: 95%;
     max-width: 1300px;
     margin: auto;
     margin-top: 5px;
-    margin-bottom: 5px;
     gap: 5px;
 }
+
+
 
 .menu-herram {
     display: flex;
@@ -238,6 +237,4 @@
         .menu-herram-horiz {display: none};
     }
 
-    .fa-brands {font-size: 1em; margin: auto}
-
-    .fa-solid {font-size: 1em; margin: auto}
+    
