@@ -44,7 +44,7 @@ a:active {
 
 .header-grid {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
+    grid-template-columns: 40px repeat(11,1fr);
     grid-template-rows: 45px 25px;
     width: 95%;
     max-width: 1300px;
@@ -137,13 +137,14 @@ a:active {
     text-align: center;
 }
 
+.contenedor-iconoMateria {
+    text-align: center;
+}
+
 .iconoMateria {
     width: 100%;
     max-width: 150px;
     height: auto;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    margin-left: 20px;
     }
 
 .materia1 {
@@ -221,8 +222,14 @@ a:active {
 .novedades {
     grid-column: 11/13;
     grid-row: 1/7;
-    background-color: cornflowerblue;
+    background-color: whitesmoke;
+    border-style: double;
 }
+
+.novedad {
+    font-size: 0.8em;
+}
+
 
 
 /*@media only screen and (max-width: 400px) {
