@@ -8,9 +8,9 @@
 
 .fa-regular {font-size: 1.5em; margin-left: 20px; margin-top: 5px;}
 
-.fa-circle-question {font-size: 1.5em; color: white; vertical-align: middle;} 
+.fa-circle-question {font-size: 1em; color: white; vertical-align: middle;} 
 
-.fa-user {font-size: 1.5em; color: white; vertical-align: middle;} 
+.fa-user {font-size: 1em; color: white; vertical-align: middle;} 
 
 .fa-graduation-cap {font-size: 1.5em; margin-left: 20px; margin-top: 5px;}
 
@@ -69,6 +69,14 @@ a:active {
     background-color: darkblue;
     color: whitesmoke;
 }
+
+.home {
+    grid-column: 10/11;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 1em;
+    background-color: darkblue;
+} 
 
 .ayuda {
     grid-column: 11/12;

@@ -1,32 +1,90 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fa-brands {font-size: 1em; margin: auto}
+
+.fa-solid {font-size: 1em; margin: auto}
+
+.fa-regular {font-size: 1.5em; margin-left: 20px; margin-top: 5px;}
+
+.fa-house {font-size: 1em; color: white; vertical-align: middle;}
+
+.fa-circle-question {font-size: 1em; color: white; vertical-align: middle;} 
+
+.fa-user {font-size: 1em; color: white; vertical-align: middle;} 
+
+.fa-graduation-cap {font-size: 1.5em; margin-left: 20px; margin-top: 5px;}
+
+.fa-chalkboard-user {font-size: 1.5em; margin-left: 20px; margin-top: 5px;}
+
+.fa-building-columns {font-size: 4.5em; text-align: center; }
+
+a:link {
+    font-size: 1em;
+    color:black;
+    text-decoration: none;
+  }
+  
+/*a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }*/
+  
+a:hover {
+    color:crimson;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 .header-grid {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    height: 100px;
-    width: 90%;
-    max-width: 1100px;
+    grid-template-columns: 40px repeat(11,1fr);
+    grid-template-rows: 45px 25px;
+    width: 95%;
+    max-width: 1300px;
     margin: auto;
-    gap: 5px;
+    gap: 0px;
 }
 
 .logo {
-    grid-column: 1/3;
+    grid-column: 1/2;
     grid-row: 1/2;
-    background-color: darkblue;
-    color: white;
 } 
 
 .campus {
-    grid-column: 3/6;
+    grid-column: 2/11;
     grid-row: 1/2;
+    text-align: left;
+    font-size: 1.5em;
+    font-family: 'Lavishly Yours', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
     background-color: darkblue;
-    color: white;
+    color: whitesmoke;
+}
+
+.ayuda {
+    grid-column: 11/12;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 1em;
+    background-color: darkblue;
 } 
 
 .cuenta {
     grid-column: 12/13;
     grid-row: 1/2;
+    text-align: center;
     background-color: darkblue;
-    color: white;
 } 
 
 .menu-mat {
@@ -35,69 +93,133 @@
     justify-content: space-evenly;
     grid-column: 1/13;
     grid-row: 2/3;
-    background-color: orange;
+    background-color:dodgerblue;
 } 
-
-.menu-mat-item {
-    background-color: blue;
-}
 
 .section-grid {
     display: grid;
-    grid-template-columns: repeat(12,1fr);
-    height: 300px;
-    width: 90%;
-    max-width: 1100px;
+    grid-template-columns: 70px repeat(11,1fr);
+    height: 700px;
+    width: 95%;
+    max-width: 1300px;
     margin: auto;
     margin-top: 5px;
-    margin-bottom: 5px;
     gap: 5px;
 }
 
 .menu-herram {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     grid-column: 1/2;
-    grid-row: 1/12;
-    background-color: orange;
-    color: white;
-} 
-
-.menu-herram-item {
-    background-color: blue;
+    grid-row: 1/7;
+    background-color:whitesmoke;
+    color: black;
 }
 
-.consultas {
-    grid-column: 2/6;
-    grid-row: 1/6;
-    background-color: orange;
-    color: black;
-} 
-
-.archivos {
-    grid-column: 6/10;
-    grid-row: 1/6;
-    background-color: orange;
-    color: black;
-} 
-
-.videos {
-    grid-column: 2/6;
-    grid-row: 6/11;
-    background-color: orange;
-    color: black;
-} 
-
-.ejercicios {
-    grid-column: 6/10;
-    grid-row: 6/11;
-    background-color: orange;
-    color: black;
-} 
-
-.destacados {
-    grid-column: 10/13;
-    grid-row: 1/13;
-    background-color: cornflowerblue;
+.textoHerramientas {
+    text-align: center;
+    font-size: 0.8em;
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    border-style: solid;
 }
+
+.materia {
+    grid-column: 2/11;
+    text-align: center;
+}
+
+
+
+.novedades {
+    grid-column: 11/13;
+    grid-row: 1/7;
+    background-color: whitesmoke;
+    border-style: double;
+}
+
+.novedad {
+    font-size: 0.8em;
+}
+
+
+
+/*@media only screen and (max-width: 400px) {
+    .header-grid { height: 50px;}
+    .menu-mat {display: none;} 
+    .novedades {display: none;}
+    .menu-herram {display: none;}
+    .materia1 {grid-column: 1/13;
+               grid-row: 1/5;}
+    .materia2 {grid-column: 1/13;
+                grid-row: 5/9;}
+    .materia3 {grid-column: 1/13;
+               grid-row: 9/13;}
+    .materia4 {grid-column: 1/13;
+               grid-row: 13/17;}
+    .materia5 {grid-column: 1/13;
+               grid-row: 17/21;}
+    .materia6 {grid-column: 1/13;
+               grid-row: 21/25;}
+    .materia7 {grid-column: 1/13;
+               grid-row: 25/29;}
+    .materia8 {grid-column: 1/13;
+               grid-row: 29/33;}
+    .materia9 {grid-column: 1/13;
+               grid-row: 33/37;}
+    .novedades {display: none;}
+    .menu-herram-horiz {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+    .header-grid { height: 50px;}
+    .menu-mat {display: none;} 
+    .menu-herram {display: none;}
+    .materia1 {grid-column: 1/8;
+               grid-row: 1/5;}
+    .materia2 {grid-column: 1/8;
+                grid-row: 5/9;}
+    .materia3 {grid-column: 1/8;
+               grid-row: 9/13;}
+    .materia4 {grid-column: 1/8;
+               grid-row: 13/17;}
+    .materia5 {grid-column: 1/8;
+               grid-row: 17/21;}
+    .materia6 {grid-column: 1/8;
+               grid-row: 21/25;}
+    .materia7 {grid-column: 1/8;
+               grid-row: 25/29;}
+    .materia8 {grid-column: 1/8;
+               grid-row: 29/33;}
+    .materia9 {grid-column: 1/8;
+               grid-row: 33/37;}
+    .novedades {grid-column: 8/13;
+                grid-row: 1/37;}
+    .menu-herram-horiz {display: flex;
+                        flex-direction: row;
+                        justify-content: space-evenly;
+                       }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1000px) {
+        .menu-herram {display: none;}
+        .menu-herram-horiz {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
+        .menu-herram-horiz {display: none};
+    }
+
+    

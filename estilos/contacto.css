@@ -2,6 +2,8 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
+.fa-house {font-size: 1em; color: white; vertical-align: middle;}
+
 .header-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -10,7 +12,7 @@
     width: 95%;
     max-width: 1300px;
     margin: auto;
-    gap: 5px;
+    gap: 0px;
 }
 
 .logo {
@@ -30,7 +32,7 @@
 }
 
 .banner {
-    grid-column: 1/13;
+    grid-column: 1/12;
     grid-row: 2/3;
     background-color:darkblue;
     color:whitesmoke;
@@ -40,6 +42,14 @@
     font-family: 'Lora', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Prompt', sans-serif;
+}
+
+.home {
+    grid-column: 12/13;
+    grid-row: 2/3;
+    background-color:darkblue;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .section-grid {
