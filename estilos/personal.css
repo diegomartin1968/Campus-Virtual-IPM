@@ -128,11 +128,11 @@ a:active {
 
 .materia {
     text-align: center;
-    transition: linear; font-size 2seg;
+    transition: linear; font-size: 2seg;
 }
 
 .materia:hover {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .contenedor-iconoMateria {

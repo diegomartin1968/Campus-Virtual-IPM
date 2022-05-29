@@ -1,14 +1,21 @@
 function validacion() {
-    const usuario=document.getElementById("usuario").value;
-    if (usuario.length == 0) {
-       alert ("ERROR Ingresar Nombre de Usuario");
-       return;
-     }
-     
-    const clave=document.getElementById("clave").value;
-     if (clave.length == 0 || clave.length<6) {
+    let contador=0
+    const constusuario=document.getElementById("usuario").value;
+    if (constusuario.length == 0) {
+       alert ("ERROR Ingresar Nombre de Usuario");}
+    else {
+        contador +=1; 
+    } 
+    const constclave=document.getElementById("clave").value;
+    if (constclave.length == 0 || constclave.length<6) {
        alert ("ERROR Ingresar Clave de Acceso válida");
-       return;
     }
-    alert ("Hola")
-    window.open("personal.html")};
+    else {
+        contador +=1; 
+    } 
+    if (contador == 2) {
+        window.open("personal.html");}
+    else {
+            return;
+    }
+}

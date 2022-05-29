@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Open+Sans:wght@300&family=Prompt:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilos/consulta.css">
     <link rel="icon" href="imagenes/FaviconIPM.ico">
+    <script src="scripts/validarConsulta.js"></script>
     <title>CV IPM</title>
 </head>
 <body>
@@ -77,7 +78,7 @@
             </div>
             <div class="section-grid-item consulta">
                 <h2>Consulta</h2>
-                <form action="Link" method="POST" target="_blank">
+                <form action="" method="" target="">
                     <span>
                         <label for="apellido">Apellido</label>   
                         <input type="text" id="apellido" name="apellido" size="20" maxlength="20">
@@ -123,7 +124,7 @@
                         <label for="consulta">Escriba su consulta</label> <br>
                         <textarea name="consulta" id="consulta" cols="60" rows="10"></textarea>
                     </div>
-                    <input type="submit" value="ENVIAR">
+                    <div class="enviar"><button onClick="validacion();">Enviar</button> </div>
                 </form>
             </div>
             <div class="section-grid-item novedades">
