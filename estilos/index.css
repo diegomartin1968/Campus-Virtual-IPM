@@ -2,6 +2,10 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 .header-grid {
     display: grid;
     grid-template-columns: repeat(12,1fr);
