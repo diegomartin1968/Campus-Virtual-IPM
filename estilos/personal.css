@@ -236,80 +236,81 @@ a:active {
     font-size: 0.8em;
 }
 
+.menu-herram-horiz {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
-
-/*@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     .header-grid { height: 50px;}
     .menu-mat {display: none;} 
     .novedades {display: none;}
-    .menu-herram {display: none;}
-    .materia1 {grid-column: 1/13;
-               grid-row: 1/5;}
-    .materia2 {grid-column: 1/13;
-                grid-row: 5/9;}
-    .materia3 {grid-column: 1/13;
-               grid-row: 9/13;}
-    .materia4 {grid-column: 1/13;
-               grid-row: 13/17;}
-    .materia5 {grid-column: 1/13;
-               grid-row: 17/21;}
-    .materia6 {grid-column: 1/13;
-               grid-row: 21/25;}
-    .materia7 {grid-column: 1/13;
-               grid-row: 25/29;}
-    .materia8 {grid-column: 1/13;
-               grid-row: 29/33;}
-    .materia9 {grid-column: 1/13;
-               grid-row: 33/37;}
+    .materia1 {grid-column: 2/13;
+               grid-row: 1/2;}
+    .materia2 {grid-column: 2/13;
+                grid-row: 2/3;}
+    .materia3 {grid-column: 2/13;
+               grid-row: 3/4;}
+    .materia4 {grid-column: 2/13;
+               grid-row: 4/5;}
+    .materia5 {grid-column: 2/13;
+               grid-row: 5/6;}
+    .materia6 {grid-column: 2/13;
+               grid-row: 6/7;}
+    .materia7 {grid-column: 2/13;
+               grid-row: 7/8;}
+    .materia8 {grid-column: 2/13;
+               grid-row: 8/9;}
+    .materia9 {grid-column: 2/13;
+               grid-row: 9/10;}
     .novedades {display: none;}
+    .contenedor-iconoMateria {display: none;}
     .menu-herram-horiz {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+        display: none;}
 }
 
 @media only screen and (min-width: 400px) and (max-width: 768px) {
     .header-grid { height: 50px;}
     .menu-mat {display: none;} 
-    .menu-herram {display: none;}
-    .materia1 {grid-column: 1/8;
-               grid-row: 1/5;}
-    .materia2 {grid-column: 1/8;
-                grid-row: 5/9;}
-    .materia3 {grid-column: 1/8;
-               grid-row: 9/13;}
-    .materia4 {grid-column: 1/8;
-               grid-row: 13/17;}
-    .materia5 {grid-column: 1/8;
-               grid-row: 17/21;}
-    .materia6 {grid-column: 1/8;
-               grid-row: 21/25;}
-    .materia7 {grid-column: 1/8;
-               grid-row: 25/29;}
-    .materia8 {grid-column: 1/8;
-               grid-row: 29/33;}
-    .materia9 {grid-column: 1/8;
-               grid-row: 33/37;}
+    .materia1 {grid-column: 2/8;
+               grid-row: 1/2;}
+    .materia2 {grid-column: 2/8;
+                grid-row: 2/3;}
+    .materia3 {grid-column: 2/8;
+               grid-row: 3/4;}
+    .materia4 {grid-column: 2/8;
+               grid-row: 4/5;}
+    .materia5 {grid-column: 2/8;
+               grid-row: 5/6;}
+    .materia6 {grid-column: 2/8;
+               grid-row: 6/7;}
+    .materia7 {grid-column: 2/8;
+               grid-row: 7/8;}
+    .materia8 {grid-column: 2/8;
+               grid-row: 8/9;}
+    .materia9 {grid-column: 2/8;
+               grid-row: 9/10;}
     .novedades {grid-column: 8/13;
-                grid-row: 1/37;}
-    .menu-herram-horiz {display: flex;
-                        flex-direction: row;
-                        justify-content: space-evenly;
-                       }
+                grid-row: 1/10;}
+    .menu-herram-horiz {display: none;}
+    .contenedor-iconoMateria {display: none;}
+    .menu-herram {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        background-color:whitesmoke;
+        color: black;
+    }
+                       
     }
 
-    @media only screen and (min-width: 768px) and (max-width: 1000px) {
-        .menu-herram {display: none;}
-        .menu-herram-horiz {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-        }
+    @media only screen and (min-width: 768px) {
+        .menu-herram-horiz {display: none;}
     }
 
-    @media only screen and (min-width: 1000px) {
-        .menu-herram-horiz {display: none};
-    }
+    
 
     
